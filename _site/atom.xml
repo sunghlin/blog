@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<feed xmlns='http://www.w3.org/2005/Atom'>
+	<title>www.savjee.be</title>
+	<link href='http://www.savjee.be/'/>
+	<link type='application/atom+xml' rel='self' href='http://www.savjee.be/atom.xml'/>
+	<updated>2014-07-10T23:15:18-07:00</updated>
+	<id>http://www.savjee.be/</id>
+
+	<author>
+		<name>Xavier Decuyper</name>
+		<email>xavier.decuyper@gmail.com</email>
+	</author>
+
+	
+	<entry>
+		<title>Test new github Blog</title>
+		<link type='text/html' href='http://www.savjee.be/2014/Test-New-Github-Blog/'/>
+		<id>http://www.savjee.be/2014/Test-New-Github-Blog/</id>
+		<updated>2014-07-10T00:00:00-07:00</updated>
+
+		<author>
+			<name>Xavier Decuyper</name>
+			<uri>http://www.savjee.be/</uri>
+		</author>
+
+		<content type='html'>&lt;p&gt;This is a test blog.&lt;/p&gt;
+</content>
+	</entry>
+  
+</feed>
