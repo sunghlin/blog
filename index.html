@@ -4,17 +4,17 @@ title: Home
 ---
 
 {% if paginator.previous_page %}
-	<h1 class='content-subhead'>Page {{paginator.page}}</h1>
+	<span class='content-subhead'>Page {{paginator.page}}</span>
 {% else %}
-	<h1 class='content-subhead'>Recent posts</h1>
+	<span class='content-subhead'>Recent posts</span>
 {% endif %}
 
 {% for post in paginator.posts %}
 <section class='post'>
 	<header class='post-header'>
-		<h2 class='post-title'>
+		<h1 class='post-title'>
 			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-		</h2>
+		</h1>
 
 		<p class='post-meta'>
 			{{ post.date | date_to_string }}
@@ -30,7 +30,7 @@ title: Home
 {% endfor %}
 
 {% if paginator.previous_page == nil %}
-	<h1 class='content-subhead'>Older posts</h1>
+	<span class='content-subhead'>Older posts</span>
 	<div class='post-description'>
 		<ul class='older-posts'>
 			{% for post in site.posts limit:6 offset: 3 %}

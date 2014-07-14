@@ -3,7 +3,7 @@
 	<title>www.savjee.be</title>
 	<link href='http://www.savjee.be/'/>
 	<link type='application/atom+xml' rel='self' href='http://www.savjee.be/atom.xml'/>
-	<updated>2014-07-10T23:15:18-07:00</updated>
+	<updated>2014-07-13T23:44:21-07:00</updated>
 	<id>http://www.savjee.be/</id>
 
 	<author>
@@ -12,6 +12,26 @@
 	</author>
 
 	
+	<entry>
+		<title>Jekyll Powered Blog on Github</title>
+		<link type='text/html' href='http://www.savjee.be/2014/Jekyll-Powered-Blog-on-Github/'/>
+		<id>http://www.savjee.be/2014/Jekyll-Powered-Blog-on-Github/</id>
+		<updated>2014-07-12T00:00:00-07:00</updated>
+
+		<author>
+			<name>Xavier Decuyper</name>
+			<uri>http://www.savjee.be/</uri>
+		</author>
+
+		<content type='html'>&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;/h2&gt;
+
+&lt;p&gt;Before I wrote this article, I asked myself why I choose to host my blog on Github. However, I cannot find a satisfying reason to convince everyone. There are so many choices there. For instance, &lt;a href=&quot;http://www.wordpress.com&quot;&gt;Wordpress.com&lt;/a&gt; and &lt;a href=&quot;https://www.blogger.com/&quot;&gt;Blogger&lt;/a&gt; are two free good blogging platforms. If you prefer Markdown editting, &lt;a href=&quot;https://ghost.org/&quot;&gt;Ghost&lt;/a&gt; and &lt;a href=&quot;http://logdown.com/&quot;&gt;Logdown&lt;/a&gt; provide good solutions for editors. There is no sliver bullet from Jekyll powered Blog. So, who is the potential user of Jekyll powered Blog on Github?&lt;/p&gt;
+
+&lt;p&gt;First of all, you have some basic idea of web programming and Markdown editting. Second, you only blog on some specific machines. Thrid and most importantly, &lt;em&gt;you want to control every code on your blog&lt;/em&gt;. If you meet all of those, you should go through this article and get some ideas of Jekyll powered blog.&lt;/p&gt;
+
+</content>
+	</entry>
+  
 	<entry>
 		<title>Test new github Blog</title>
 		<link type='text/html' href='http://www.savjee.be/2014/Test-New-Github-Blog/'/>
