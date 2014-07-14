@@ -7,17 +7,17 @@ quote:
 
 ## Prelude
 
-Before I wrote this article, I asked myself why I choose to host my blog on Github. However, I cannot find a satisfying reason to convince everyone. There are so many choices there. For instance, [Wordpress.com](http://www.wordpress.com) and [Blogger](https://www.blogger.com/) are two free good blogging platforms. If you prefer Markdown editting, [Ghost](https://ghost.org/) and [Logdown](http://logdown.com/) provide good solutions for editors. There is no sliver bullet from Jekyll powered Blog. So, who is the potential user of Jekyll powered Blog on Github?
+Before I wrote this article, I asked myself why I choose to host my blog on Github. However, I cannot find a satisfying reason to convince everyone. There are so many choices there. For instance, [Wordpress.com](http://www.wordpress.com) and [Blogger](https://www.blogger.com/) are two free good blogging platforms. If you prefer Markdown editing, [Ghost](https://ghost.org/) and [Logdown](http://logdown.com/) provide good solutions for editors. There is no sliver bullet from Jekyll powered Blog. So, who is the potential user of Jekyll powered Blog on Github?
 
-First of all, you have some basic idea of web programming and Markdown editting. Second, you only blog on some specific machines. Thrid and most importantly, *you want to control every code on your blog*. If you meet all of those, you should go through this article and get some ideas of Jekyll powered blog.
+First of all, you have some basic idea of web programming and Markdown editing. Second, you only blog on some specific machines. Third and most importantly, *you want to control every code on your blog*. If you meet all of those, you should go through this article and get some ideas of Jekyll powered blog.
 
 <!--more-->
 
-> The instructions in this article are summerized from [Github Help](https://help.github.com/), [Jekyll](http://jekyllrb.com/), and [JekyllBootstrap](http://jekyllbootstrap.com/). I assume that you have some ideas about Git.
+> The instructions in this article are summarized from [Github Help](https://help.github.com/), [Jekyll](http://jekyllrb.com/), and [JekyllBootstrap](http://jekyllbootstrap.com/). I assume that you have some ideas about Git.
 
 ## Create the repository environment
 
-Github provides each user/business account a page on your user name (ex: your_username.github.io), and infinite project pages under your personal domain name (ex: your_username.github.io/project_name). Those two are only differnt in this part, and I will introduce the way of building their environments seperately.
+Github provides each user/business account a page on your user name (ex: your_username.github.io), and infinite project pages under your personal domain name (ex: your_username.github.io/project_name). Those two are only different in this part, and I will introduce the way of building their environments separately.
 
 ### User/business page
 
@@ -25,7 +25,7 @@ Github provides each user/business account a page on your user name (ex: your_us
 
 > your_username here is your login name. You can also create `your_username.github.com`, which is an alias of your_username.github.io.
 
-- Clone this repository from gitub
+- Clone this repository from github
 ^
 	git clone https://github.com/your_username/your_username.github.io.git
 
@@ -80,13 +80,13 @@ in your root of the repository to compile the website. Then, you can check your 
 
 ## Site generator
 
-So far, we only have no contents in our blog. To quickly start a blog, we can use some generators to help us. I recommand two generators: [jekyll-bootstrap-3](https://github.com/dbtek/jekyll-bootstrap-3) and [Poole](http://getpoole.com/). Please clone their files and put it into the root folder of your repository.
+So far, we only have no contents in our blog. To quickly start a blog, we can use some generators to help us. I recommend two generators: [jekyll-bootstrap-3](https://github.com/dbtek/jekyll-bootstrap-3) and [Poole](http://getpoole.com/). Please clone their files and put it into the root folder of your repository.
 
 ## Jekyll config
 
-The configuartions of Jekyll is set in file `_config.yml`. Here, I introduce some basic configurations used in Jekyll
+The configurations of Jekyll are set in file `_config.yml`. Here, I introduce some basic configurations used in Jekyll
 
-- **Markdown engine**: the default from bundler is kramdown, which is recommanded by Git. You can change to any other engine as you want.
+- **Markdown engine**: the default from bundler is kramdown, which is recommended by Git. You can change to any other engine, as you want.
 ^
 	markdown: kramdown
 
@@ -102,7 +102,7 @@ The configuartions of Jekyll is set in file `_config.yml`. Here, I introduce som
 ^
 	baseurl: /your_project
 
-> However, if you set baseurl, the local viewer cannot recognive this path because it think everying is in the root. Therefore, to review your blog locally, you should use command `bundle exec jekyll serve --baseurl ''` to run Jekyll.
+> However, if you set baseurl, the local viewer cannot recognize this path because it think everything is in the root. Therefore, to review your blog locally, you should use command `bundle exec jekyll serve --baseurl ''` to run Jekyll.
 
 > In order to make your url path correctly when linking resources (ex, images and css), link everything like this way: \{\{ site.baseurl \}\}/path/to/css.
 
@@ -110,7 +110,7 @@ The configuartions of Jekyll is set in file `_config.yml`. Here, I introduce som
 
 ## Submit your files
 
-After I have done all constructions, we commit our files and upload to github.
+After we have done all constructions, we commit our files and upload to github.
 
 - Add your files into repository
 ^
