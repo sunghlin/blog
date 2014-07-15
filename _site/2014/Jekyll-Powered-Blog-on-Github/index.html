@@ -42,21 +42,19 @@
 	</header>
 
 		<div class='post-description'>
-			<h2 id="prelude">Prelude</h2>
+			<p>Before I wrote this article, I asked myself why I choose to host my blog on Github. However, I cannot find a satisfying reason to convince everyone. There are so many choices there. For instance, <a href="http://www.wordpress.com">Wordpress.com</a> and <a href="https://www.blogger.com/">Blogger</a> are two free good blogging platforms. If you prefer Markdown editing, <a href="https://ghost.org/">Ghost</a> and <a href="http://logdown.com/">Logdown</a> provide good solutions for editors. There is no sliver bullet from Jekyll powered Blog. So, who is the potential user of Jekyll powered Blog on Github?</p>
 
-<p>Before I wrote this article, I asked myself why I choose to host my blog on Github. However, I cannot find a satisfying reason to convince everyone. There are so many choices there. For instance, <a href="http://www.wordpress.com">Wordpress.com</a> and <a href="https://www.blogger.com/">Blogger</a> are two free good blogging platforms. If you prefer Markdown editting, <a href="https://ghost.org/">Ghost</a> and <a href="http://logdown.com/">Logdown</a> provide good solutions for editors. There is no sliver bullet from Jekyll powered Blog. So, who is the potential user of Jekyll powered Blog on Github?</p>
-
-<p>First of all, you have some basic idea of web programming and Markdown editting. Second, you only blog on some specific machines. Thrid and most importantly, <em>you want to control every code on your blog</em>. If you meet all of those, you should go through this article and get some ideas of Jekyll powered blog.</p>
+<p>First of all, you have some basic idea of web programming and Markdown editing. Second, you only blog on some specific machines. Third and most importantly, <em>you want to control every code on your blog</em>. If you meet all of those, you should go through this article and get some ideas of Jekyll powered blog.</p>
 
 <!--more-->
 
 <blockquote>
-  <p>The instructions in this article are summerized from <a href="https://help.github.com/">Github Help</a>, <a href="http://jekyllrb.com/">Jekyll</a>, and <a href="http://jekyllbootstrap.com/">JekyllBootstrap</a>. I assume that you have some ideas about Git.</p>
+  <p>The instructions in this article are summarized from <a href="https://help.github.com/">Github Help</a>, <a href="http://jekyllrb.com/">Jekyll</a>, and <a href="http://jekyllbootstrap.com/">JekyllBootstrap</a>. I assume that you have some ideas about Git.</p>
 </blockquote>
 
 <h2 id="create-the-repository-environment">Create the repository environment</h2>
 
-<p>Github provides each user/business account a page on your user name (ex: your_username.github.io), and infinite project pages under your personal domain name (ex: your_username.github.io/project_name). Those two are only differnt in this part, and I will introduce the way of building their environments seperately.</p>
+<p>Github provides each user/business account a page on your user name (ex: your_username.github.io), and infinite project pages under your personal domain name (ex: your_username.github.io/project_name). Those two are only different in this part, and I will introduce the way of building their environments separately.</p>
 
 <h3 id="userbusiness-page">User/business page</h3>
 
@@ -69,7 +67,7 @@
 </blockquote>
 
 <ul>
-  <li>Clone this repository from gitub</li>
+  <li>Clone this repository from github</li>
 </ul>
 <pre><code>git clone https://github.com/your_username/your_username.github.io.git
 </code></pre>
@@ -146,14 +144,14 @@ gem 'github-pages'
 
 <h2 id="site-generator">Site generator</h2>
 
-<p>So far, we only have no contents in our blog. To quickly start a blog, we can use some generators to help us. I recommand two generators: <a href="https://github.com/dbtek/jekyll-bootstrap-3">jekyll-bootstrap-3</a> and <a href="http://getpoole.com/">Poole</a>. Please clone their files and put it into the root folder of your repository.</p>
+<p>So far, we only have no contents in our blog. To quickly start a blog, we can use some generators to help us. I recommend two generators: <a href="https://github.com/dbtek/jekyll-bootstrap-3">jekyll-bootstrap-3</a> and <a href="http://getpoole.com/">Poole</a>. Please clone their files and put it into the root folder of your repository.</p>
 
 <h2 id="jekyll-config">Jekyll config</h2>
 
-<p>The configuartions of Jekyll is set in file <code>_config.yml</code>. Here, I introduce some basic configurations used in Jekyll</p>
+<p>The configurations of Jekyll are set in file <code>_config.yml</code>. Here, I introduce some basic configurations used in Jekyll</p>
 
 <ul>
-  <li><strong>Markdown engine</strong>: the default from bundler is kramdown, which is recommanded by Git. You can change to any other engine as you want.</li>
+  <li><strong>Markdown engine</strong>: the default from bundler is kramdown, which is recommended by Git. You can change to any other engine, as you want.</li>
 </ul>
 <pre><code>markdown: kramdown
 </code></pre>
@@ -177,7 +175,7 @@ gem 'github-pages'
 </code></pre>
 
 <blockquote>
-  <p>However, if you set baseurl, the local viewer cannot recognive this path because it think everying is in the root. Therefore, to review your blog locally, you should use command <code>bundle exec jekyll serve --baseurl ''</code> to run Jekyll.</p>
+  <p>However, if you set baseurl, the local viewer cannot recognize this path because it think everything is in the root. Therefore, to review your blog locally, you should use command <code>bundle exec jekyll serve --baseurl ''</code> to run Jekyll.</p>
 </blockquote>
 
 <blockquote>
@@ -190,7 +188,7 @@ gem 'github-pages'
 
 <h2 id="submit-your-files">Submit your files</h2>
 
-<p>After I have done all constructions, we commit our files and upload to github.</p>
+<p>After we have done all constructions, we commit our files and upload to github.</p>
 
 <ul>
   <li>Add your files into repository</li>

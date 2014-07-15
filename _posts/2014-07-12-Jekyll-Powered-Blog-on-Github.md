@@ -5,8 +5,6 @@ keywords: Jekyll, blog, github
 quote: 
 ---
 
-## Prelude
-
 Before I wrote this article, I asked myself why I choose to host my blog on Github. However, I cannot find a satisfying reason to convince everyone. There are so many choices there. For instance, [Wordpress.com](http://www.wordpress.com) and [Blogger](https://www.blogger.com/) are two free good blogging platforms. If you prefer Markdown editing, [Ghost](https://ghost.org/) and [Logdown](http://logdown.com/) provide good solutions for editors. There is no sliver bullet from Jekyll powered Blog. So, who is the potential user of Jekyll powered Blog on Github?
 
 First of all, you have some basic idea of web programming and Markdown editing. Second, you only blog on some specific machines. Third and most importantly, *you want to control every code on your blog*. If you meet all of those, you should go through this article and get some ideas of Jekyll powered blog.
