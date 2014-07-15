@@ -22,7 +22,7 @@ title: Home
 	</header>
 
 	<div class='post-description'>
-		{{ post.content | preview }}
+		{{ post.content | split:"<!--more-->" | first }}
 
 		<p><a href='{{ site.baseurl }}{{ post.url }}'>Continue reading &rarr;</a></p>
 	</div>
