@@ -1,56 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset='UTF-8'>
-	<title>{{page.title}} | Sungh.link</title>
-	<link rel='stylesheet' type='text/css' href='{{ site.baseurl }}/assets/style.css'>
-	<link rel='alternate' type='application/rss+xml' title='Elfreda.sungh.link Feed' href='{{ site.baseurl }}/atom.xml'>
-	<meta name='description' content='{{ page.quote }}'/>
-	<meta name='keywords' content='{{ page.keywords }}'/>
-	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
-	<link rel='shortcut icon' href='{{ site.baseurl }}/assets/favicon.ico' type='image/x-icon'>
-	<link rel='icon' href='{{ site.baseurl }}/assets/favicon.ico' type='image/x-icon'>
-</head>
-<body>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
-<div class='pure-g-r' id='layout'>
-	<div class='sidebar pure-u'>
-		<div class='header'>
-			<h1 class='brand-title'><a href='{{ site.baseurl }}/index.html'>Sungh.lin.k</a></h1>
+  {% include head.html %}
 
-			<nav class='nav'>
-				<ul class='nav-list'>
-					<li class='nav-item'>
-						<a href='{{ site.baseurl }}/posts.html'>Blog posts</a>
-					</li>
-					<li class='nav-item'>
-						<a href='{{ site.baseurl }}/about.html'>About Me</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</div>
+  <body class=theme-base-0d>
 
-	<div class='pure-u-1'>
-		<div class='content'>
-			{{ content }}
-		</div>
+    {% include sidebar.html %}
 
-		<footer class='footer'>
-			<span>Copyright 2014, Sung-Han Lin</span>
-			<!--
-			<div class='pure-menu pure-menu-horizontal pure-menu-open'>
-				<ul>
-					<li><a href='http://www.savjee.be/atom.xml'>RSS feed</a></li>
-					<li><a href='https://plus.google.com/+XavierDecuyper?rel=author'>Google+</a></li>
-					<li><a href='https://twitter.com/Xafke/'>Twitter</a></li>
-					<li><a href='https://github.com/Savjee'>GitHub</a></li>
-				</ul>
-			</div>
-			-->
-		</footer>
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-	</div>
-</div>
-</body>
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+
+  </body>
 </html>

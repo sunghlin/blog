@@ -4,7 +4,6 @@ highlighter: pygments
 permalink: /:year/:title/
 safe: false
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-paginate: 3
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -17,3 +16,14 @@ paginate: 3
 #production_url : http://sunghlin.github.com
 
 baseurl: /blog
+
+# Setup
+title:            blog.sunghlin.co
+description:      ''
+url:              sunghlin.github.io/blog
+
+author:
+  name:           'Sunghlin'
+  url:            
+
+paginate:         5
